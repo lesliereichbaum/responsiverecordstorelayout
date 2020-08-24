@@ -1,0 +1,36 @@
+.container {
+    background-color: #fcfc86;
+    text-align: center;
+    margin-inline-end: center;
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-size: 468.75%;
+    font-weight: bold;
+}
+
+.flex-container {
+    /* column-count: 3;
+    column-gap: 100px;
+    column-width: auto; */
+    /* text-align: center; */
+    /* margin-left: 10%;
+    margin-right: 10%;  */
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #d9a2ee;
+    color: #7D5B8A;
+    font-weight: bold;
+
+}
+
+.photo {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+}
